@@ -12,7 +12,7 @@ class InstallWordpress extends Command
      *
      * @var string
      */
-    protected $signature = 'larapress:install 
+    protected $signature = 'velopress:install 
                             {title : the blog title}
                             {user : the username of the initial admin user}
                             {email : the email address of the initial admin user}
