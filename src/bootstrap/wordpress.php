@@ -49,17 +49,16 @@ define('DISALLOW_FILE_EDIT', true);
  * Bootstrap WordPress
  */
 if (!defined('ABSPATH')) {
-    define('ABSPATH', public_path('wp'));
+    define('ABSPATH', public_path('wp') . "/");
 }
 
 if( php_sapi_name() !== 'cli' ) {
-    require_once(ABSPATH . '/wp-settings.php');
+    require_once(ABSPATH . 'wp-settings.php');
 } else {
     define('WP_USE_THEMES', false);
     define('WP_INSTALLING', true);
     global $wp, $wp_query, $wp_the_query, $wp_rewrite, $wp_did_header;
-    require_once(ABSPATH . '/wp-settings.php');
-//    ob_end_clean();
+    require_once(ABSPATH . 'wp-settings.php');
 }
 
 
