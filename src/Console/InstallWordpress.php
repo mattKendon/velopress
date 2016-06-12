@@ -2,7 +2,7 @@
 namespace Velopress\Console;
 
 use Illuminate\Console\Command;
-use Larapress\Larapress\Facades\Wordpress;
+use Velopress\Facades\Wordpress;
 
 class InstallWordpress extends Command
 {
