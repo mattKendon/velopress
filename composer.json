@@ -1,0 +1,21 @@
+{
+    "name": "mkendon/velopress",
+    "license": "MIT",
+    "homepage": "https://github.com/mkendon/velopress",
+    "description": "A Wordpress package for Laravel",
+    "authors": [
+        {
+            "name": "Matthew Kendon",
+            "email": "mkendon@gmail.com",
+            "homepage": "https://matthewkendon.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Velopress\\": "src/"
+        }
+    }
+
+}
