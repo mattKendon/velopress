@@ -13,9 +13,6 @@
     "minimum-stability": "stable",
     "require": {},
     "autoload": {
-        "files": [
-            "src/helpers/laravel.php"
-        ],
         "psr-4": {
             "Velopress\\": "src/"
         }
