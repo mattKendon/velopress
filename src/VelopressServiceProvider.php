@@ -4,7 +4,7 @@ namespace Velopress;
 
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\ServiceProvider;
-use Larapress\Larapress\Console\InstallWordpress;
+use Velopress\Console\InstallWordpress;
 
 class VelopressServiceProvider extends ServiceProvider
 {
