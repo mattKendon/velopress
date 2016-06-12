@@ -15,7 +15,7 @@ class VelopressServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        require __DIR__.'/bootstrap/wordpress.php';
+        require_once __DIR__.'/bootstrap/wordpress.php';
 
         $this->publishes(
             [__DIR__.'/wordpress/' => public_path()],
